@@ -52,9 +52,11 @@ An HTTP GET request to `http://localhost:4000/api/hello` should return the follo
 
 ## 3 - Frontend validation
 
-Using provided HTML file `frontend/index.html` implement date validation using pure JavaScript (e.g. no jQuery or other JS frameworks). Date should be entered in "MM/DD/YYYY" format; assume for the purpose of this exercise that all years are leap years (e.g. February 29 is a valid date).
+Using the provided HTML file `frontend/index.html` implement date validation using pure JavaScript (e.g. no jQuery or other JS frameworks). Dates should be entered in "MM/DD/YYYY" format, assume for the purpose of this exercise that all years are leap years (e.g. February 29 is a valid date).
 
 On clicking the "validate" button, `<p id="validation"></>` element should be populated either with "Valid Date" message or "Invalid Date: <some description of the problem>".
+
+Dates in the future are valid.
 
 
 ### Last updated
