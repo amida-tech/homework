@@ -6,7 +6,7 @@ Programming exersize for new dev team candidates
 ## 1 - Parsing data
 
 Write parser that convert CMS Blue Button data file (ascii format) into JSON.
-Sample file - `parse/cms_sample.txt`.
+Sample file - `parse/cms_sample.txt`. You only need to parse "Demographics" section of the file.
 
 Output format:
 
@@ -52,7 +52,7 @@ HTTP GET request to `http://localhost:4000/api/hello` should return following JS
 
 ## 3 - Frontend validation
 
-Using provided HTML file `frontend/index.html` implement date validation using pure JavaScript (e.g. no jQuery or other JS frameworks).
+Using provided HTML file `frontend/index.html` implement date validation using pure JavaScript (e.g. no jQuery or other JS frameworks). Date should be entered in "MM/DD/YYYY" format, assume for the purpose of this exersize that all years are leap years (e.g. February 29 is a valid date).
 
 On clicking "validate" button, `<p id="validation"></>` element should be populated either with "Valid Date" message or "Invalid Date: <some desctiption of the problem>".
 
