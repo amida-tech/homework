@@ -5,8 +5,8 @@ Programming exercise for new dev team candidates
 
 ## 1 - Parsing data
 
-Write a parser that converts CMS Blue Button data file (ascii format) into JSON.
-Sample file - `parse/cms_sample.txt`. You only need to parse "Demographics" section of the file.
+Write a parser that converts a CMS Blue Button data file (ASCII format) into JSON.
+Sample file - `parse/cms_sample.txt`. You only need to parse the "Demographics" section of the file.
 
 Output format:
 
@@ -37,7 +37,7 @@ Output format:
 
 Create a basic API. It should run as a standalone HTTP server.
 
-An HTTP GET request to `http://localhost:4000/api/hello` should return following JSON structure with 200 OK HTTP code:
+An HTTP GET request to `http://localhost:4000/api/hello` should return the following JSON structure with a 200 OK HTTP code:
 
 ```
 {
@@ -52,11 +52,11 @@ An HTTP GET request to `http://localhost:4000/api/hello` should return following
 
 ## 3 - Frontend validation
 
-Using the provided HTML file `frontend/index.html` implement date validation using pure JavaScript (e.g. no jQuery or other JS frameworks). Date should be entered in "MM/DD/YYYY" format, assume for the purpose of this exercise that all years are leap years (e.g. February 29 is a valid date).
+Using the provided HTML file `frontend/index.html` implement date validation using pure JavaScript (e.g. no jQuery or other JS frameworks). Dates should be entered in "MM/DD/YYYY" format, assume for the purpose of this exercise that all years are leap years (e.g. February 29 is a valid date).
 
-On clicking "validate" button, `<p id="validation"></>` element should be populated either with "Valid Date" message or "Invalid Date: <some desctiption of the problem>".
+On clicking the "validate" button, `<p id="validation"></>` element should be populated either with "Valid Date" message or "Invalid Date: <some description of the problem>".
 
-Dates in the future are [valid | invalid]
+Dates in the future are valid.
 
 
 ### Last updated
