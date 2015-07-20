@@ -63,7 +63,7 @@ Implement date validation using pure JavaScript.
 * Dates should be entered in "MM/DD/YYYY" format
 * Assume for the purpose of this exercise that all years are leap years (e.g. February 29 is a valid date)
 * Dates in the future are valid
-* On clicking the "validate" button, the `<p id="validation"></>` element should be populated either with a "Valid Date" message or "Invalid Date: <some description of the problem>"
+* On clicking the "validate" button, the `<p id="validation"></p>` element should be populated either with a `Valid Date` message or `Invalid Date: <some description of the problem>`
 
 
 
