@@ -1,5 +1,8 @@
 # Amida Homework
-Programming exercise for new dev team candidates.
+Programming exercise for new dev team candidates.  
+
+You should aim to spend no more than two hours on this assignment. When you are done,
+please return your source files as a tar.gz.
 
 ## Part 1: Parsing Data
 
