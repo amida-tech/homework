@@ -1,8 +1,8 @@
 # Amida Homework
+
 Programming exercise for new dev team candidates.  
 
-You should aim to spend no more than two hours on this assignment. When you are done,
-please return your source files as a tar.gz.
+Spend no more than two hours on this assignment. Create a GitHub repo for your code, and at the end of the two hours please send us the link.
 
 ## Part 1: Parsing Data
 
@@ -71,4 +71,5 @@ a file and POST it to your HTTP server.
 
 
 ### Last updated
+
 October 5, 2016
